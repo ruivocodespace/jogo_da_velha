@@ -7,7 +7,7 @@ def check_win(tab):
     ]
     for combo in combos:
         if tab[combo[0]] == tab[combo[1]] == tab[combo[2]] != " ":
-            return True, tab[combo[0]]  # vitória
+            return True, tab[combo[0]]
     if " " not in tab:
-        return "empate", None          # empate
-    return False, None                 # jogo continua
+        return "empate", None
+    return False, None
