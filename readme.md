@@ -32,7 +32,7 @@ The project is divided into multiple files for better organization:
 3. In the terminal, navigate to the project folder and run:
 
 ```bash
-python main.py
+python jogo_velha.py
 
 📜 License
 
